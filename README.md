@@ -30,4 +30,5 @@
 
 ## Автор
 
-Github: [@lashchev93LAV](https://github.com/laschev93LAV)
+Github: [@lashchev93LAV]
+(https://github.com/laschev93LAV)
