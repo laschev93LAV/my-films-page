@@ -5,7 +5,7 @@
 
 ## Демо
 
-[Открыть проект] https://laschev93lav.github.io/my-films-page/
+[Открыть проект](https://laschev93lav.github.io/my-films-page/)
 
 ## Стек
 
@@ -30,5 +30,4 @@
 
 ## Автор
 
-Github: [@lashchev93LAV]
-(https://github.com/laschev93LAV)
+Github: [@lashchev93LAV](https://github.com/laschev93LAV)
