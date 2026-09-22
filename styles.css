@@ -65,8 +65,8 @@ body {
 }
 
 .films-grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: var(--space-lg);
     margin-bottom: var(--space-lg);
 }
@@ -75,18 +75,17 @@ body {
     text-align: center;
 }
 
-h2 a {
+.film h2 a {
      color: var(--color-link);
     text-decoration: none;  
 }
 
-h2 a:hover {
+.film h2 a:hover {
     text-decoration: underline;
 }
 
 .film {
     position: relative;
-    flex: 1 1 300px;
     padding: var(--space-md);
     border: 1px solid var(--color-border);
     border-radius: var(--radius);
@@ -125,16 +124,24 @@ h2 a:hover {
     text-align: center;
 }
 
-ul li {
+.recommendation li {
     margin-bottom: 4px;
 }
 
-ol li a {
+.watchlist {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-md);
+    padding: 0;
+    list-style: none;
+}
+
+.watchlist a {
     color: var(--color-link);
     text-decoration: none;
 }
 
-ol li a:hover {
+.watchlist a:hover {
     color: var(--color-primary);
 }
 
@@ -159,4 +166,3 @@ ol li a:hover {
 .to-top:hover {
     transform: scale(1.1);
 }
-
