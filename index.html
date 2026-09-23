@@ -137,6 +137,46 @@
         >
       </li>
     </ol>
+    <section class="feedback">
+      <h2>Оставь отзыв</h2>
+      <form class="feedback-form">
+        <div class="form-group">
+          <label for="name">Имя</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Как вас зовут?"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your@mail.com"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Сообщение</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Ваш отзыв о подборке..."
+            required
+          ></textarea>
+        </div>
+        <label class="checkbox">
+          <input type="checkbox" name="agree" required />
+          <span>Согласен на обработку персональных данных</span>
+        </label>
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
     <a href="#top" class="to-top" aria-label="Наверх">↑</a>
   </body>
 </html>
